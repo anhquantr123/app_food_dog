@@ -18,6 +18,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       body: SafeArea(
         child: SingleChildScrollView(
+          padding: EdgeInsets.symmetric(vertical: 5),
           scrollDirection: Axis.vertical,
           child: Column(
             children: [Search(), Category(), BestSeller(), SpecialDeal()],
