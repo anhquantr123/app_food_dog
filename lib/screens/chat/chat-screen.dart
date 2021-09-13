@@ -7,7 +7,7 @@ class ChatScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Container(
-        child: Text("this is chat screen "),
+        child: Text("this is chat screen hello anh quan "),
       ),
     );
   }
