@@ -29,10 +29,6 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   flutter_svg: ^0.22.0
-  flutter_redux: ^0.8.2
-  smooth_star_rating: ^1.1.1
-  bottom_navy_bar: ^6.0.0
-  touchable_opacity: ^1.2.0
   provider: ^6.0.0
 
 dev_dependencies:
