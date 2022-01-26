@@ -9,3 +9,6 @@ const textSizeHeading = 20.0;
 const textSizeBody = 16.0;
 
 const textStyleBold = "bold";
+
+const textHeadingStyleItem =
+    TextStyle(fontSize: 16, color: Colors.black, fontWeight: FontWeight.bold);

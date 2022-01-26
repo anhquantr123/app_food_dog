@@ -1,3 +1,4 @@
+import 'package:app_food/screens/home/widget-home/BestSeller.dart';
 import 'package:app_food/screens/home/widget-home/category.dart';
 import 'package:app_food/widget/search.dart';
 
@@ -18,7 +19,7 @@ class _HomeScreenState extends State<HomeScreen> {
       padding: EdgeInsets.symmetric(vertical: 5),
       scrollDirection: Axis.vertical,
       child: Column(
-        children: [Search(), Category()],
+        children: [Search(), Category(), BestSeller()],
       ),
     ));
   }

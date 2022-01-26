@@ -35,7 +35,7 @@ class _CategoryState extends State<Category> {
             height: 10,
           ),
           SizedBox(
-            height: 101,
+            height: 102,
             child: ListView.builder(
                 scrollDirection: Axis.horizontal,
                 itemCount: _listCategories.length,
